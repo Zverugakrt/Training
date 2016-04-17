@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Train.Enums;
 
-namespace Train.Interfaces
+namespace Train.Enums
 {
-    public interface IWagon<T>
+    public enum PassengerWagonTypes
     {
-        T qw { get; set; }
+        Сompartment,
+        EconomClass,
+        Interregional
     }
 }
