@@ -9,8 +9,15 @@ namespace Train.Сlasses
 {
     public class BaseWagon
     {
-        protected string Id;
+        protected int Id;
         protected WagonTypes WagonType;
         protected double Weight { get; set; }
+        protected int YearOfRelease;
+
+        public BaseWagon(int id, WagonTypes wagontype)
+        {
+            Id = id;
+            WagonType = wagontype;
+        }
     }
 }

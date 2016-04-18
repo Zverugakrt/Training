@@ -8,5 +8,11 @@ namespace Train.Interfaces
 {
     public interface ITrain
     {
+        ICollection<IPassengerWagon> Wagons { get;}
+        ILocomotive Locomotiv { get;}
+
+        int CountPassengers();
+        double CountBaggage();
+        void Find();
     }
 }

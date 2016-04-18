@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Train.Сlasses.BaseWagon" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Сlasses\BaseWagon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Train.Сlasses.Train" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Сlasses\Train.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Train.Сlasses.PassengerWagon" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgGAAAQAAAAAAAARQAUQAIAAAABAAAAAIAAAAAA=</HashCode>
+      <FileName>Сlasses\PassengerWagon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Train.Сlasses.FreightWagon" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAACgAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Сlasses\FreightWagon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Train.Сlasses.Passenger" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Сlasses\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Train.Сlasses.Delete" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Сlasses\DeleteBy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Train.Interfaces.IFreightWagon" Collapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAgAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFreightWagon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Train.Interfaces.ILocomotive" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ILocomotive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Train.Interfaces.IPassengerWagon" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgEAAAQAAAAAAAAAQAUQAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPassengerWagon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Train.Interfaces.ITrain" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITrain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Train.Interfaces.IWagon" Collapsed="true">
+    <Position X="2" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IWagon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Train.Enums.PassengerWagonTypes" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\PassengerWagonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Train.Enums.WagonTypes" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAIAE=</HashCode>
+      <FileName>Enums\WagonTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.25" />
+</ClassDiagram>

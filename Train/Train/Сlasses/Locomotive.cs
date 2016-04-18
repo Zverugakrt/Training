@@ -3,23 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Train.Enums;
 using Train.Interfaces;
 
 namespace Train.Сlasses
 {
-    public class Wagon<T> : IWagon<T>
+    class Locomotive : ILocomotive
     {
-        public T qw
+        double _MaxSpeed;
+        public double MaxSpeed
         {
             get
             {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
+                return _MaxSpeed;
             }
         }
     }

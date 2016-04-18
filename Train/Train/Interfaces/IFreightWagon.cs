@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Train.Interfaces
 {
-    public interface ILocomotive
+    public interface IFreightWagon:IWagon
     {
-        double MaxSpeed { get; }
+        double MaxCountFreight { get; }
+        double CountFreight { get; }
+        void AddFreight(int value);
     }
 }

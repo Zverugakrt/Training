@@ -7,8 +7,8 @@ using Train.Enums;
 
 namespace Train.Interfaces
 {
-    public interface IWagon<T>
+    public interface IWagon
     {
-        T qw { get; set; }
+        
     }
 }

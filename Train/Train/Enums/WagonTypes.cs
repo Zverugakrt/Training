@@ -8,7 +8,6 @@ namespace Train.Enums
 {
     public enum WagonTypes
     {
-        PassengerWagonTypes,
         Passenger,
         Freight,
         Baggage,
